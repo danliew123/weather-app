@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  border: 4px solid rgb(32, 168, 168);
+  width: 400px;
+  height: 500px;
+  display: grid;
+  grid-template-rows: 400px 100px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+#display {
+  width: 360px;
+  height: 360px;
+  border: 4px solid black;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  align-self: baseline;
+  justify-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#description {
+  text-align: center;
+  font-family: monospace;
+  font-size: large;
+}
+
+img {
+  margin-top: 24px;
+  width: 300px;
+}
